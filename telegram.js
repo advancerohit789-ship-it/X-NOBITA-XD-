@@ -11,7 +11,7 @@ const START_PHOTO = path.join(process.cwd(), "telegram_start.jpg");
 
 // Telegram Bot Token: paste your BotFather token here.
 // Environment variable is supported too; the value below is used if it is set.
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8787492131:AAFfLkBSm6CqWzTfbOlz6YL7Df5r2pzPGkc";
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8787492131:AAGWCOHU6gZfwAH1z8RIpIjUegXuMuZcbkI";
 
 function normalizePhone(value) { return String(value || "").replace(/\D/g, ""); }
 function isoToFlag(iso) {
